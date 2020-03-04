@@ -145,6 +145,7 @@ public class AATree<A extends Comparable<? super A>, B> implements Map<A, B>{
                 t.value = temp.value;
             }
         }
+		
         //Tree re-balancing
         t = decreaseLevel(t);
         t = skew(t);

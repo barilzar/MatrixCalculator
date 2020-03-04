@@ -15,7 +15,7 @@ public class SparseMatrixTest {
     //Maximum allowed difference in floating point equality
     private static final double ACC = 0.000001;
     
-    //Amount of zeros in matrixes (percentage wise)
+    //Amount of zeros in matrixes (percentage wise i.e. 0.7 == 70%)
     private static final double ZPROB = 0.7;
     
     @BeforeClass

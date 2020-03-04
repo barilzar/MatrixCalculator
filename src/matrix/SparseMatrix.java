@@ -42,7 +42,7 @@ public class SparseMatrix implements Serializable{
     }
     
     /**
-     * Creates a new matrix from the two dimensional array provided.
+     * Creates a new matrix from the regular two dimensional array provided.
      * <p><b>NOTE: </b>If any of the nested arrays are null a NullPointerException will occur.
      * @param val Two dimensional array with the values to create this matrix by.
      */

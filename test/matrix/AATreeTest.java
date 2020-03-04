@@ -17,9 +17,9 @@ import org.junit.BeforeClass;
  * 
  */
 public class AATreeTest {
-    private static final int COUNT = 10000;
-    private static double[] val;
-    private static AATree<Integer, Double> tree;
+    private static final int COUNT = 10000;		//Amount of test values
+    private static double[] val;				//An array for the test values
+    private static AATree<Integer, Double> tree;//The test tree
 
     @BeforeClass
     public static void setUpClass() throws Exception {
